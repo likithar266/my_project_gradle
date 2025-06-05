@@ -19,10 +19,10 @@ application{
     mainClass = 'com.example.Main'
 }
 
-//task copyWebsite(type: Copy){
-//    from 'src/main/resources/website'
-//    into 'docs'
-//}
+task copyWebsite(type: Copy){
+    from 'src/main/resources/website'
+    into 'docs'
+}
 
 //test {
   //  useJUnitPlatform()
